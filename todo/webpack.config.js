@@ -44,7 +44,9 @@ module.exports = (_, argv) => ({
       name: "todo",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        './TodoApp': './src/components/TodoContent/index.tsx',
+      },
       shared: {
         ...deps,
         react: {

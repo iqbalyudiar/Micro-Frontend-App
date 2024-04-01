@@ -1,3 +1,4 @@
 import List from "./List";
+import TodoContent from "./TodoContent";
 
-export { List };
+export { List, TodoContent };
