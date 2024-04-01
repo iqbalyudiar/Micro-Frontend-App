@@ -1,2 +1,3 @@
 import Header from "./Header";
-export { Header };
+import TodoContent from "./TodoContent";
+export { Header, TodoContent };
