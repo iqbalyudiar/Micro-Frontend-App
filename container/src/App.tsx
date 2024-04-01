@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
+import { Header } from './components'
 
 import './index.scss'
 
 const App = () => (
   <div className="mt-10 text-3xl mx-auto max-w-6xl">
+    <Header />
     <div>Name: container</div>
     <div>Framework: react</div>
     <div>Language: TypeScript</div>
