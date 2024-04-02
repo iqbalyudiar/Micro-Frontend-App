@@ -1,0 +1,16 @@
+{
+  "name": "micro-frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pckg:install": "cd container && npm install && cd ../auth && npm install && cd ../todo && npm install",
+    "dev": "concurrently \"cd container; npm start\" \"cd auth; npm start\"  \"cd todo; npm start\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
